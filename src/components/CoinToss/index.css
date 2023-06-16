@@ -1,0 +1,46 @@
+.App-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffffff;
+  border-radius: 10px;
+  width: 20%;
+  height: 50%;
+}
+.heading {
+  color: #a35200;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.coin-image {
+  width: 100px;
+}
+.spin-button {
+  background-color: #f9d423;
+  border: none;
+  border-radius: 5px;
+  color: #a35200;
+  padding: 5px;
+  font-weight: 500;
+}
+.toss-count-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.count {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 10px;
+}
